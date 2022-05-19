@@ -1,0 +1,25 @@
+@import '_variable.scss';
+
+@mixin MainFontStyle {
+  font-family: $fontStackTT;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin addFontStyle {
+  font-family: $fontStackRobo;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin btnDefault {
+  border: 0;
+  cursor: pointer;
+  background-color: $none-color;
+}
+
+@mixin flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

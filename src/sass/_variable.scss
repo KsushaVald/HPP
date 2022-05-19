@@ -1,0 +1,37 @@
+@import '_fonts.scss';
+
+//Fonts
+$fontStackRobo: 'Roboto', sans-serif;
+$fontStackTT: 'TTFirsNeue', sans-serif;
+
+
+//Color
+$background-color: #202020;
+$light-color: #FFFFFF;
+$none-color: rgba(0, 0, 0, 0);
+$input-search-color: #E9E9E9;
+$subheader-color: #4A4A4A;
+$close-color: #808080;
+$svg-defult-color: #CACACA;
+$btn-color: #FF6E30;
+$link-active-color:#CE4307;
+$btn-dark-color: #BC572B;
+$tag-background-color: #333333;
+$date-color: #999999;
+$link-background-color: #FFD4C1;
+$background-color-transparant: rgba(32, 32, 32, 0.85);
+
+//Size
+$ContainerMaxSize: 1330px;
+$ContainerSizeBreakpoint1: 1002px;
+$networkSvgSize: 30px;
+$svglinkSize: 30px;
+$svgSearchMaxSize: 25px;
+$svgSearchMinSize: 20px;
+
+//Breakeboints
+$breakpointFirst: 1024px;
+$breakpointSecond: 768px;
+$breakpointBetween: 640px;
+$breakpointThird: 510px;
+
